@@ -1,6 +1,6 @@
 # USA_invasion_paper
 
-# Instructions below contain the code needed to re-create the figures and statistics from the paper.
+# The manual below contains the code needed to re-create the figures and statistical analysis from the paper.
 ---
 title: "wCer2Modeling"
 author: "Sonja Lecic"
