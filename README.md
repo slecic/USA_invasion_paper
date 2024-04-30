@@ -53,7 +53,7 @@ First import and save the maps
 #####################
 
 ####### make a white and grey map
-map <- get_stamenmap( bbox = c(left = -11, bottom = 35, right = 45, top = 61), zoom = 4, maptype = "toner-background")
+map <- get_stadiamap( bbox = c(left = -11, bottom = 35, right = 45, top = 61), zoom = 4, maptype = "stamen_toner_background")
 
 ## Rivers
 # download river shape file to plot Danube on the map
@@ -84,7 +84,7 @@ mygmap
 #Map USA
 ##########
 ####### make a white and grey map of the US
-usmap <- get_stamenmap( bbox = c(left = -85, bottom = 30, right = -73, top = 50), zoom = 8, maptype = "toner-background")
+usmap <- get_stadiamap( bbox = c(left = -85, bottom = 30, right = -73, top = 50), zoom = 8, maptype = "stamen_toner_background")
 
 # change opacity of basemap
 usmapatt <- attributes(usmap)
