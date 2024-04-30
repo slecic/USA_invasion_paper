@@ -53,6 +53,7 @@ First import and save the maps
 #####################
 
 ####### make a white and grey map
+register_stadiamaps("Your-API-Key", write = FALSE)
 map <- get_stadiamap( bbox = c(left = -11, bottom = 35, right = 45, top = 61), zoom = 4, maptype = "stamen_toner_background")
 
 ## Rivers
