@@ -134,6 +134,9 @@ pie.europe <- mygmap +
                      aesthetics = c("colour", "fill"))
 
 pie.europe
+# to generate Fig.1. for the publication, due to high density of information on the plot
+# I introduced offlat and offlon vectors, which offset the pie charts on the map such that the black connecting lines can be drawn between the pie chart
+#and the conresponding geographic point
 #ggsave("/Volumes/LaCie/pie.past.png", plot = pie.europe,  width = 15, height = 10, dpi = 300, units = "in", device='png')
 #ggsave("/Volumes/LaCie/pie.past.svg", plot = pie.europe,  width = 15, height = 10, dpi = 300, units = "in", device='svg')
 ```
